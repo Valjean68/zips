@@ -27,3 +27,11 @@ db=SQLAlchemy(app)
 app.app_context().push()
 
 db.create_all()
+
+
+
+
+
+y mandale despues:
+- sudo a2dissite 000-default.conf
+- service apache2 restart
